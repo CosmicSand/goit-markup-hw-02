@@ -28,7 +28,10 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 24px;
+  text-transform: uppercase;
   color: #2e2f42;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .head-logo:hover,
 .head-logo:focus {
@@ -37,11 +40,16 @@ body {
 .logo {
   color: #4d5ae5;
 }
+.head-address {
+  font-style: normal;
+}
 /* Зміни навігаційних посилань: колір, вага. Додавання ефектів hover/focus */
 
 .menu-list-link {
   font-weight: 500;
   color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .menu-list-link:hover,
 .menu-list-link:focus {
@@ -50,6 +58,9 @@ body {
 /* Зміни контактних посилань: колір. Додавання ефектів hover/focus. Вага за замовчанням правильна. */
 
 .contact-list-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .contact-list-link:hover,
@@ -69,12 +80,16 @@ body {
 .hero-title {
   color: #ffffff;
   font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .hero-button {
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
   background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   width: 169px;
   height: 56px;
 }
@@ -87,9 +102,14 @@ body {
 
 .benefits-list-title {
   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .benefits-list-text {
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Секція Team. Змінили фон секції, виправілі після цього фон комірок на білий та задали їх ширину. Текст вирівняли по центру як заголовка секції так і всередині комірок */
@@ -100,6 +120,10 @@ body {
 .team-title {
   text-align: center;
   font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 /* Ширину для класу team-member додав виключно для естетики. !!!НЕ ЗАБУТИ ВІДРЕДАГУВАТИ!!!*/
@@ -112,6 +136,14 @@ body {
 }
 .team-members-name {
   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-member-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Секція portfolio */
@@ -119,6 +151,10 @@ body {
 .portfolio-title {
   text-align: center;
   font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .portfolio-list-item {
   text-align: center;
@@ -127,6 +163,14 @@ body {
 }
 .portfolio-name {
   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Footer. Змінено фон, колір лого та розмір його шрифту. Додані hover/focus */
@@ -134,6 +178,11 @@ body {
   background-color: #2e2f42;
 }
 .foot-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   font-size: 18px;
   color: #ffffff;
 }
@@ -142,6 +191,7 @@ body {
   color: #404bbf;
 }
 .foot-text {
-  color: #ffffff;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
   line-height: 1.5;
 }
