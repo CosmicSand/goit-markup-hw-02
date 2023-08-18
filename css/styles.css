@@ -1,13 +1,21 @@
+/* Звільняємо посилання від підкреслень та списки від маркерів */
+
 .link {
   text-decoration: none;
 }
 .list {
   list-style-type: none;
 }
+
+/* Для кнопки - ручка) та фон */
+
 button {
   cursor: pointer;
   font-family: inherit;
 }
+
+/* Задаємо глобальний стиль */
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -117,7 +125,7 @@ body {
   font-weight: 500;
 }
 
-/* Footer */
+/* Footer. Змінено фон, колір лого та розмір його шрифту. Додані hover/focus */
 .page-footer {
   background-color: #2e2f42;
 }
@@ -131,4 +139,5 @@ body {
 }
 .foot-text {
   color: #ffffff;
+  line-height: 1.5;
 }
