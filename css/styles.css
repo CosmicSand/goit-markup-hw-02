@@ -116,3 +116,19 @@ body {
 .portfolio-name {
   font-weight: 500;
 }
+
+/* Footer */
+.page-footer {
+  background-color: #2e2f42;
+}
+.foot-logo {
+  font-size: 18px;
+  color: #ffffff;
+}
+.foot-logo:hover,
+.foot-logo:focus {
+  color: #404bbf;
+}
+.foot-text {
+  color: #ffffff;
+}
