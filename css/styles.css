@@ -33,13 +33,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+.logo-head {
+  color: #2e2f42;
+}
 .head-logo:hover,
 .head-logo:focus {
   color: #404bbf;
 }
-.logo {
-  color: #2e2f42;
-}
+
 .head-address {
   font-style: normal;
 }
