@@ -83,7 +83,7 @@ body {
   line-height: 1.5;
 }
 
-/* Секція Team */
+/* Секція Team. Змінили фон секції, виправілі після цього фон комірок на білий та задали їх ширину. Текст вирівняли по центру як заголовка секції так і всередині комірок */
 
 .team {
   background-color: #f4f4fd;
@@ -97,4 +97,22 @@ body {
   text-align: center;
   width: 264px;
   height: 380px;
+}
+.team-members-name {
+  font-weight: 500;
+}
+
+/* Секція portfolio */
+
+.portfolio-title {
+  text-align: center;
+  font-size: 36px;
+}
+.portfolio-list-item {
+  text-align: center;
+  width: 360px;
+  height: 420px;
+}
+.portfolio-name {
+  font-weight: 500;
 }
