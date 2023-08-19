@@ -75,8 +75,6 @@ body {
   background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
-  /* width: 1440px;
-  height: 600px; */
 }
 .hero-title {
   color: #ffffff;
@@ -91,8 +89,6 @@ body {
   background-color: #4d5ae5;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  /* width: 169px;
-  height: 56px; */
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -132,8 +128,6 @@ body {
 .team-member {
   background-color: #ffffff;
   text-align: center;
-  /* width: 264px;
-  height: 380px; */
 }
 .team-members-name {
   font-weight: 500;
